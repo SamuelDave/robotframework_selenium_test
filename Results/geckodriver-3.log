@@ -1,0 +1,17 @@
+1606029005064	geckodriver	INFO	Listening on 127.0.0.1:56069
+1606029008163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilebiWr3E"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1606029010448	Marionette	INFO	Listening on port 56077
+1606029010842	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://dmca-edu-ph.herokuapp.com/account/login/?next=/account/, line 291: SyntaxError: expected expression, got '}'
+JavaScript error: https://dmca-edu-ph.herokuapp.com/account/login/, line 291: SyntaxError: expected expression, got '}'
+JavaScript error: https://dmca-edu-ph.herokuapp.com/account/, line 348: SyntaxError: expected expression, got '}'
+1606029023080	Marionette	INFO	Stopped listening on port 56077
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

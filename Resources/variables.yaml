@@ -1,0 +1,21 @@
+#default value for browser if variables was not passed
+BROWSER:      chrome
+
+#sleep duration
+short:        3
+long:         5
+
+user:
+  email:      joshtest1@mailinator.com
+  password:   P@ssw0rd
+
+#default values for invalid credentials
+xname:        testname@invalid.com
+xpass:        testpassword
+
+#Homepage Variables
+loginLink:    /account/login/
+loginButton:  id:loginButton
+profileLink:  /account/view/edit/profile/
+logoutLink:   /account/logout/
+invalidLbl:   //*[@id="content"]/div/div[2]/form/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/span
