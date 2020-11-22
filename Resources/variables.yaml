@@ -1,6 +1,9 @@
 #default value for browser if variables was not passed
 BROWSER:      chrome
 
+#default comment
+COMMENT:      Hello
+
 #sleep duration
 short:        3
 long:         5
@@ -10,12 +13,17 @@ user:
   password:   P@ssw0rd
 
 #default values for invalid credentials
-xname:        testname@invalid.com
-xpass:        testpassword
+XNAME:        testname@invalid.com
+XPASS:        testpassword
 
 #Homepage Variables
-loginLink:    body > nav > div > nav > div > ul > li:nth-child(3) > a > h6
-loginButton:  loginButton
-profileLink:  /account/view/edit/profile/
-logoutLink:   /account/logout/
-invalidLbl:   content > div > div:nth-child(2) > form > div > div > div > div > div.card-content.row.black-text > div.container.col.s12.m12.l7 > div.container.black-text > div > div:nth-child(2) > span
+loginLink:    css:div.navbar-fixed nav:nth-child(1) div.nav-wrapper.white ul.right.hide-on-med-and-down li:nth-child(3) > a.btn-flat.waves-effect
+loginButton:  css:#loginButton
+profileLink:  css:nav.z-depth-0:nth-child(1) div.navbar-fixed nav:nth-child(1) div.nav-wrapper.white ul.right.hide-on-med-and-down li:nth-child(5) > a.nav-link.dropdown-trigger.center.black-text
+logoutLink:   css:nav.z-depth-0:nth-child(1) div.navbar-fixed div.nav-wrapper.white ul.right.hide-on-med-and-down li:nth-child(5) ul.dropdown-content li:nth-child(4) > a.nav-link.red.accent.white-text.center.hoverable
+invalidLbl:   css:div.container:nth-child(2) div.row div.col.s12.m12.l12 div.card.white.z-depth-4 div.card-content.row
+
+#Discussion page variables
+firstPost:    css:div.main.white div.row:nth-child(1) div.col.s9.m12.l9:nth-child(1) div.row div.col.s12.m12.l12 div.card div.card-content div.row div.col.s9:nth-child(2) div:nth-child(1) ul.collection li.collection-item.avatar:nth-child(1) span.title:nth-child(2) > a:nth-child(1)
+commentBox:   css:#id_body
+postButton:   css:div.white div.container:nth-child(3) div.row:nth-child(1) div.col.s12.m7.l8:nth-child(2) div.card div.card-content form:nth-child(15) > input.btn.btn-large:nth-child(3)

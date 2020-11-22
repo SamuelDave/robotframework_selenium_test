@@ -14,4 +14,8 @@ Valid User Login
 
 #add -v xpass:*desired value* to you command line if you want to change the value
 Invalid User Login
-    Invalid Login using ${xname} and ${xpass}
+    Invalid Login using ${XNAME} and ${XPASS}
+
+Post Comment ${COMMENT}
+    User Login
+    Click the First Post and Write a the Comment ${COMMENT}
