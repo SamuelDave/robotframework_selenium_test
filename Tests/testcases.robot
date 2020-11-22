@@ -1,6 +1,6 @@
 *** Setting ***
 Documentation    Test Execution on https://dmca-edu-ph.herokuapp.com
-Library          Selenium2Library
+Library          SeleniumLibrary
 Resource         ../Resources/general_resources.robot
 
 #the default browser is chrome. If you want tou change it, simply add -v BROWSER:*desired browser* to you command line

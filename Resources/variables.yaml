@@ -14,8 +14,8 @@ xname:        testname@invalid.com
 xpass:        testpassword
 
 #Homepage Variables
-loginLink:    /account/login/
-loginButton:  id:loginButton
+loginLink:    body > nav > div > nav > div > ul > li:nth-child(3) > a > h6
+loginButton:  loginButton
 profileLink:  /account/view/edit/profile/
 logoutLink:   /account/logout/
-invalidLbl:   //*[@id="content"]/div/div[2]/form/div/div/div/div/div[2]/div[2]/div[1]/div/div[2]/span
+invalidLbl:   content > div > div:nth-child(2) > form > div > div > div > div > div.card-content.row.black-text > div.container.col.s12.m12.l7 > div.container.black-text > div > div:nth-child(2) > span
